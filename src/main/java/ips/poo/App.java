@@ -20,41 +20,11 @@ public class App extends Application {
     @Override
     public void start(Stage stage) {
 
-                // Label
-                Label label = new Label("Enter your name:");
-
-                // TextField
-                TextField textField = new TextField();
-
-                // Circle
-                Circle circle = new Circle(40);
-                circle.setFill(Color.CORNFLOWERBLUE);
-
-                // Button
-                Button button = new Button("Click Me");
-
-                // Event associated with the button
-                button.setOnAction(event -> {
-                    String name = textField.getText();
-
-                    if (!name.isEmpty()) {
-                        label.setText("Hello, " + name + "!");
-                        circle.setFill(Color.GREEN);
-                    } else {
-                        label.setText("Please enter a name.");
-                        circle.setFill(Color.RED);
-                    }
-                });
-
-                // VBox layout
-                VBox vbox = new VBox(15);
-                vbox.setAlignment(Pos.CENTER);
-
-                // Add components to VBox
-                vbox.getChildren().addAll(label, textField, circle, button);
+               
+                MainWindow mainWindow=  new MainWindow();
 
                 // Scene
-                Scene scene = new Scene(vbox, 400, 300);
+                Scene scene = new Scene(mainWindow, 400, 300);
 
                 // Stage
                 primaryStage.setTitle("JavaFX Example");
