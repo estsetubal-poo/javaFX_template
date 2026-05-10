@@ -1,4 +1,4 @@
-package org.example.model;
+package ips.poo.model;
 
 public class SystemInfo {
 
