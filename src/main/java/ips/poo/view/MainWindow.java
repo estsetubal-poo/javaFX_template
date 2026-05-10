@@ -3,8 +3,8 @@ package  ips.poo.view;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.layout.BorderPane;
-import javafx.scene.layout.StackPane;
-import org.example.model.SystemInfo;
+
+import ips.poo.model.SystemInfo;
 
 public class MainWindow extends BorderPane {
 

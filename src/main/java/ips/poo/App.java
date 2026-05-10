@@ -1,4 +1,5 @@
 package ips.poo;
+import ips.poo.view.MainWindow;
 import javafx.application.Application;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -11,7 +12,7 @@ import javafx.stage.Stage;
 public class App extends Application {
 
     @Override
-    public void start(Stage stage) {
+    public void start(Stage primaryStage) {
 
                
                 MainWindow mainWindow=  new MainWindow();
