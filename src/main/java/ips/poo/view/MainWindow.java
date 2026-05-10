@@ -1,4 +1,4 @@
-package org.example.view;
+package  ips.poo.view;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
